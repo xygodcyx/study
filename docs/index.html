@@ -16,13 +16,27 @@
     <div id="app">
         加载中
     </div>
+    <script src="./edit.js"></script>
     <script>
         window.$docsify = {
             name: 'xygod的专升本笔记',
             repo: '',
             homepage: '/数学/README.md',
-            loadNavbar: true,
-            disqus: 'shortname'
+            loadNavbar: '../_navbar.md',
+            plugins: [
+                EditOnGithubPlugin.create(
+                    'https://github.com/xygodcyx/study/tree/main/docs/',
+                    null,
+                    function (file)
+                    {
+                        if (file.indexOf('en') === -1) {
+                            return '在git编辑中编辑此笔记,和我一起学习'
+                        } else {
+                            return 'edit on git'
+                        }
+                    }
+                )
+            ]
 
         }
     </script>
@@ -32,6 +46,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script>
         const gitalk = new Gitalk({
             clientID: 'Ov23liFTfUR2ToFCErMC',
