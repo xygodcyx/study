@@ -65,7 +65,16 @@
         }
         window.onload = function ()
         {
-            window.location.href = '#/math/';
+            gitalk = new Gitalk({
+                clientID: 'Ov23liFTfUR2ToFCErMC',
+                clientSecret: '4f336967feaebd966d4918b2194f707b6a12b63d',
+                repo: 'study',
+                owner: 'xygodcyx',
+                admin: ['xygodcyx'],
+                // facebook-like distraction free mode
+                distractionFreeMode: true
+            })
+            window.location.href = '';
         };
     </script>
 </body>
