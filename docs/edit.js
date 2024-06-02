@@ -33,7 +33,6 @@
 		}
 
 		return function (hook, vm) {
-			console.log(EditOnGithubPlugin);
 			win.EditOnGithubPlugin.onClick = function (event) {
 				editDoc(event, vm, docEditBase);
 			};
