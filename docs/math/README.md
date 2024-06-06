@@ -57,3 +57,15 @@
    ![image-20240606150754007](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240606150754007.png)
 
    因为这个在点两侧的函数值是相等的,所以极限存在,但是不等于fx0
+
+
+
+### 函数的求极限方法
+
+1. **直接代入法:趋近于什么,就带入什么**
+
+   有四则运算:
+
+   ![image-20240606151752672](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240606151752672.png)
+
+​		**前提是趋向一致** 就是趋向2就要都趋向2,不能一个趋向1一个趋向2。
