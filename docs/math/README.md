@@ -1,7 +1,8 @@
 # 函数
 ## 反函数
-    1.**单调性一致**
-    2.**关于直线y=x对称**
+1. **关于直线 y=x 对称**
+2. **单调性一致**
+3. **奇偶性相同**
 # 极限
 
 ## 数列的极限
@@ -58,7 +59,7 @@
 
    比如这种:
 
-   <img src="..\imgs\image-20240606150754007.png" alt="image-20240606150754007" />
+   <img src="imgs/image-20240606150754007.png" alt="image-20240606150754007" />
 
    因为这个在点两侧的函数值是相等的,所以极限存在,但是不等于fx0
 
@@ -70,16 +71,15 @@
 
    有四则运算:
 
-   <img src="..\imgs\image-20240606151752672.png" alt="image-20240606151752672" />
+   <img src="imgs/image-20240606151752672.png" alt="image-20240606151752672" />
 
 ​		**前提是趋向一致** 就是趋向2就要都趋向2,不能一个趋向1一个趋向2.
 
 ​		直接带入出不来结果的,叫未定式
 
-​			因式分解 xn - 1
-
-![image-20240606154412428](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240606154412428.png)
+​		因式分解 xn - 1
+        <img src="imgs/image-20240606154412428.png" alt="image-20240606154412428" />
 
 ​		符合函数的运算法则:
 
-​		![image-20240606152937496](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240606152937496.png)		
+​		<img src="imgs/image-20240606152937496.png" alt="image-20240606152937496" />
