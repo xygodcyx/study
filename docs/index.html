@@ -28,14 +28,7 @@
                 EditOnGithubPlugin.create(
                     'https://github.com/xygodcyx/study/tree/main/docs/',
                     null,
-                    function (file)
-                    {
-                        if (file.indexOf('en') === -1) {
-                            return '在git编辑中编辑此笔记,和我一起学习'
-                        } else {
-                            return 'edit on git'
-                        }
-                    }
+                    '在git编辑中编辑此笔记,和我一起学习'
                 )
             ]
 
@@ -60,9 +53,6 @@
         })
     </script>
     <script>
-        if (typeof navigator.serviceWorker !== 'undefined') {
-            navigator.serviceWorker.register('sw.js')
-        }
         window.onload = function ()
         {
             if (window.location.pathname === "/") {
