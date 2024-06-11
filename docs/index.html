@@ -11,6 +11,12 @@
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <style>
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,6 +61,7 @@
     <script>
         window.onload = function ()
         {
+            console.log(window.location.pathname)
             if (window.location.pathname === "/") {
                 window.location.href = '/#/math/';
             }
