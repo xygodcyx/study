@@ -7,7 +7,13 @@
 
 		if (docName) {
 			var editLink = docEditBase + docName;
-			window.open(editLink);
+			const temp = (docName.split('/'))
+			temp.shift()
+			// https://github.com/xygodcyx/study/blob/main/docs/political/README.md
+			const name = temp.join('/')
+			// docs/political/README.md
+			const path = 'https://github.com/xygodcyx/study/blob/main/' + name
+			window.open(path);
 			event.preventDefault();
 			return false;
 		} else {
