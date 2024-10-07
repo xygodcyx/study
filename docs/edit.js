@@ -8,6 +8,7 @@
     if (docName) {
       var editLink = docEditBase + docName
       const temp = docName.split('/')
+			console.log(temp)
       temp.shift()
       // https://github.com/xygodcyx/study/edit/main/docs/political/README.md
       // https://github.com/xygodcyx/study/blob/main/docs/political/README.md
