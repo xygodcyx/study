@@ -9,14 +9,13 @@
       var editLink = docEditBase + docName
       const temp = docName.split('/')
       const hasDocs = docName.includes('docs')
-      console.log(temp)
-      hasDocs ? temp.shift() : ''
+      hasDocs ? temp.shift() : temp.unshift('docs')
       // https://github.com/xygodcyx/study/edit/main/docs/political/README.md
       // https://github.com/xygodcyx/study/blob/main/docs/political/README.md
       const name = temp.join('/')
       // docs/political/README.md
       console.log(hasDocs)
-      const path = 'https://github.com/xygodcyx/study/edit/main/' + (hasDocs ? '' : 'docs/') + name
+      const path = 'https://github.com/xygodcyx/study/edit/main/' + name
       console.log(name, '--', path)
       window.open(path)
       event.preventDefault()
