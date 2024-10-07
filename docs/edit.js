@@ -12,7 +12,7 @@
 			// https://github.com/xygodcyx/study/blob/main/docs/political/README.md
 			const name = temp.join('/')
 			// docs/political/README.md
-			const path = 'https://github.com/xygodcyx/study/blob/main/' + name
+			const path = 'https://github.com/xygodcyx/study/edit/main/' + name
 			window.open(path);
 			event.preventDefault();
 			return false;
