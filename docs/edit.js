@@ -9,9 +9,11 @@
 			var editLink = docEditBase + docName;
 			const temp = (docName.split('/'))
 			temp.shift()
+			// https://github.com/xygodcyx/study/edit/main/docs/political/README.md
 			// https://github.com/xygodcyx/study/blob/main/docs/political/README.md
 			const name = temp.join('/')
 			// docs/political/README.md
+			console.log(name)
 			const path = 'https://github.com/xygodcyx/study/edit/main/' + name
 			window.open(path);
 			event.preventDefault();
